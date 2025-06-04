@@ -1,0 +1,18 @@
+###
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/1
+
+###
+DELETE  http://localhost:3001/api/persons/1
+
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Amrit Pal Singh",
+    "number":4554545
+}
